@@ -2,11 +2,47 @@
 <pre-dex-items>
 
     <item
+        dex="D:\mycodes\weiciyuan\build\intermediates\pre-dexed\debug\classes-c73b781e78c3d7f07f268f358b6eb0d032c6e4fd.jar"
+        jar="D:\mycodes\weiciyuan\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.0.30\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cebe8e4a3a469c4623addcca1dc571407ff3a08e"/>
+    <item
         dex="D:\mycodes\weiciyuan-0.50\build\intermediates\pre-dexed\debug\gson-2.2.4-8ec29f23ce2e1ff256f2f4581e97393703267285.jar"
         jar="D:\mycodes\weiciyuan-0.50\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+    <item
+        dex="D:\mycodes\weiciyuan-0.50\build\intermediates\pre-dexed\debug\classes-e622b560044df0aa3841061500cc1427191833b8.jar"
+        jar="D:\mycodes\weiciyuan-0.50\build\intermediates\exploded-aar\weiciyuan-0.50.libs\slidingmenulibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="23b3e1840f823b83ca5393adf76f286bae80ef26"/>
+    <item
+        dex="D:\mycodes\weiciyuan\build\intermediates\pre-dexed\debug\crashlytics-a0bab3786479fda4d5269e973281d77078c6282b.jar"
+        jar="D:\mycodes\weiciyuan\libs\crashlytics.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1"/>
+    <item
+        dex="D:\mycodes\weiciyuan\build\intermediates\pre-dexed\debug\classes-f641996a4e757b371043ce0bbc11921c0266af7a.jar"
+        jar="D:\mycodes\weiciyuan\build\intermediates\exploded-aar\weiciyuan.libs\slidingmenulibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f96d3001e0ad523befaf2246ad398d2c80fb7aa"/>
+    <item
+        dex="D:\mycodes\weiciyuan-0.50\build\intermediates\pre-dexed\debug\crashlytics-ad457885a923c3a60683bc7d78308af16e34bc44.jar"
+        jar="D:\mycodes\weiciyuan-0.50\libs\crashlytics.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1"/>
+    <item
+        dex="D:\mycodes\weiciyuan\build\intermediates\pre-dexed\debug\android-support-v4-9f60d55fa04a0f16ee70e7d96d7a0806d3a7c858.jar"
+        jar="D:\mycodes\weiciyuan\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4"/>
     <item
         dex="D:\mycodes\weiciyuan-0.50\build\intermediates\pre-dexed\debug\classes-4c7ae55e9875b20065f616611a013b9ae8603ee2.jar"
         jar="D:\mycodes\weiciyuan-0.50\build\intermediates\exploded-aar\weiciyuan-0.50.libs\showcaseviewlibrary\unspecified\classes.jar"
@@ -26,22 +62,16 @@
         revision="19.1.0"
         sha1="cebe8e4a3a469c4623addcca1dc571407ff3a08e"/>
     <item
-        dex="D:\mycodes\weiciyuan-0.50\build\intermediates\pre-dexed\debug\classes-e622b560044df0aa3841061500cc1427191833b8.jar"
-        jar="D:\mycodes\weiciyuan-0.50\build\intermediates\exploded-aar\weiciyuan-0.50.libs\slidingmenulibrary\unspecified\classes.jar"
+        dex="D:\mycodes\weiciyuan\build\intermediates\pre-dexed\debug\gson-2.2.4-dbd5b8ebe457cbbdc839ed2b7365ffcca7818b89.jar"
+        jar="D:\mycodes\weiciyuan\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="23b3e1840f823b83ca5393adf76f286bae80ef26"/>
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
     <item
-        dex="D:\mycodes\weiciyuan-0.50\build\intermediates\pre-dexed\debug\support-v4-19.0.1-d50c47eaff485310a725ad031610ff1d9895dd70.jar"
-        jar="D:\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        dex="D:\mycodes\weiciyuan\build\intermediates\pre-dexed\debug\classes-dab05489bed870796a380d9d143c6fc90e4a0768.jar"
+        jar="D:\mycodes\weiciyuan\build\intermediates\exploded-aar\weiciyuan.libs\showcaseviewlibrary\unspecified\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
-    <item
-        dex="D:\mycodes\weiciyuan-0.50\build\intermediates\pre-dexed\debug\crashlytics-ad457885a923c3a60683bc7d78308af16e34bc44.jar"
-        jar="D:\mycodes\weiciyuan-0.50\libs\crashlytics.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1"/>
+        sha1="955ad20efece1cd67893bb18af1804ced87214db"/>
 
 </pre-dex-items>
