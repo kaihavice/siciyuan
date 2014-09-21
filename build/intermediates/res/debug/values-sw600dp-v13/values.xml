@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!-- From: file:/D:/mycodes/weiciyuan/res/values-sw600dp/arrays.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string-array name="font_value">
         <item>14</item>
         <item>16</item>
         <item>18</item>
     </string-array>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values-sw600dp/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="browser_msg_avatar_height">68dp</dimen>
     <dimen name="browser_msg_avatar_width">68dp</dimen>
     <dimen name="browser_msg_bg_padding">20dp</dimen>
@@ -26,8 +23,6 @@
     <dimen name="timeline_pic_thumbnail_height">100dp</dimen>
     <dimen name="timeline_pic_thumbnail_width">100dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values-sw600dp/numbers.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <integer name="emotion_size">30</integer>
-
 </resources>

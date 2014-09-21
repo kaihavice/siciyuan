@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/arrays.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string-array name="comment_repost_list_avatar_mode">
         <item>打开</item>
         <item>关闭</item>
@@ -16,19 +14,18 @@
     </string-array>
     <string-array name="font">
         <item>小</item>
-        <!-- <item>较小</item> -->
+        <!--<item>较小</item>-->
         <item>中等</item>
         <item>大</item>
-        <!-- <item>很大</item> -->
+        <!--<item>很大</item>-->
     </string-array>
     <string-array name="font_value">
-
-        <!-- <item>12</item> -->
+        <!--<item>12</item>-->
         <item>13</item>
         <item>15</item>
         <item>17</item>
-        <!-- <item>18</item> -->
-        <!-- <item>20</item> -->
+        <!--<item>18</item>-->
+        <!--<item>20</item>-->
     </string-array>
     <string-array name="frequency">
         <item>三分钟</item>
@@ -95,8 +92,7 @@
         <item>2</item>
     </string-array>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/blackmagic.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string-array name="tail">
         <item>Weico Android</item>
         <item>随享iPhone</item>
@@ -110,8 +106,7 @@
         <item>2323547071,16ed80cc77fea11f7f7e96eca178ada3</item>
     </string-array>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/arrays.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string-array name="theme">
         <item>白色</item>
         <item>暗色</item>
@@ -119,16 +114,16 @@
     <string-array name="theme_value">
         <item>1</item>
         <item>2</item>
-        <!-- <item>3</item> -->
-        <!-- <item>4</item> -->
+        <!--<item>3</item>-->
+        <!--<item>4</item>-->
     </string-array>
-    <string-array name="upload_pic_quality" formatted="false">
+    <string-array formatted="false" name="upload_pic_quality">
         <item>高清不压缩</item>
         <item>压缩到50%</item>
         <item>压缩到25%</item>
         <item>自动</item>
     </string-array>
-    <string-array name="upload_pic_quality_hack_bug" formatted="false">
+    <string-array formatted="false" name="upload_pic_quality_hack_bug">
         <item>高清不压缩</item>
         <item>压缩到50%%</item>
         <item>压缩到25%%</item>
@@ -141,74 +136,71 @@
         <item>4</item>
     </string-array>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_attrs.xml -->
-    <eat-comment />
-
-    <attr name="account" format="reference" />
-    <attr name="account_management" format="reference" />
-    <attr name="add" format="reference" />
-    <attr name="at" format="reference" />
-    <attr name="browser_weibo_detail_background_color" format="color" />
-    <attr name="browser_weibo_detail_comments_reposts_category_color_selected" format="color" />
-    <attr name="browser_weibo_detail_comments_reposts_category_color_unselected" format="color" />
-    <attr name="clickable_flag" format="reference" />
-    <attr name="close" format="reference" />
-    <attr name="comment" format="reference" />
-    <attr name="copy" format="reference" />
-    <attr name="edit" format="reference" />
-    <attr name="emoticon" format="reference" />
-    <attr name="error" format="reference" />
-    <attr name="fav_en" format="reference" />
-    <attr name="fav_un" format="reference" />
-    <attr name="line_drawable" format="reference" />
-    <attr name="link_color" format="reference" />
-    <attr name="link_pressed_background_color" format="reference" />
-    <attr name="listview_card_bg" format="reference" />
-    <attr name="listview_checked_color" format="reference" />
-    <attr name="listview_item_background_selector" format="reference" />
-    <attr name="listview_item_bg" format="reference" />
-    <attr name="listview_item_refresh_animation" format="reference" />
-    <attr name="listview_pic_bg" format="integer" />
-    <attr name="listview_pic_bg_border" format="reference" />
-    <attr name="listview_repost_divider" format="reference" />
-    <attr name="listview_text_color" format="reference" />
-    <attr name="location_map" format="reference" />
-    <attr name="location_place" format="reference" />
-    <attr name="profile_detail_count_bottom_color" format="color" />
-    <attr name="profile_detail_count_divider_color" format="color" />
-    <attr name="profile_top_photo_background_color" format="color" />
-    <attr name="refresh" format="reference" />
-    <attr name="remove" format="reference" />
-    <attr name="reply_to_comment" format="reference" />
-    <attr name="repost" format="reference" />
-    <attr name="save" format="reference" />
-    <attr name="search" format="reference" />
-    <attr name="send" format="reference" />
-    <attr name="settings" format="reference" />
-    <attr name="share" format="reference" />
-    <attr name="split_line_between_content_and_bottom_button_panel" format="reference" />
-    <attr name="statusnewactivity_camera" format="reference" />
-    <attr name="statusnewactivity_gps" format="reference" />
-    <attr name="statusnewactivity_pic" format="reference" />
-    <attr name="statusnewactivity_send" format="reference" />
-    <attr name="timeline_comment_flag" format="reference" />
-    <attr name="timeline_gps_icon" format="reference" />
-    <attr name="timeline_load_more_background" format="reference" />
-    <attr name="timeline_middle_layout_background" format="color" />
-    <attr name="timeline_middle_layout_text_color" format="color" />
-    <attr name="timeline_pic_icon" format="reference" />
-    <attr name="timeline_reply_to_comment" format="reference" />
-    <attr name="timeline_repost_flag" format="reference" />
-    <attr name="topic" format="reference" />
-    <attr name="web" format="reference" />
-    <attr name="write_dm" format="reference" />
-    <attr name="write_weibo" format="reference" />
+    <eat-comment/>
+    <attr format="reference" name="account"/>
+    <attr format="reference" name="account_management"/>
+    <attr format="reference" name="add"/>
+    <attr format="reference" name="at"/>
+    <attr format="color" name="browser_weibo_detail_background_color"/>
+    <attr format="color" name="browser_weibo_detail_comments_reposts_category_color_selected"/>
+    <attr format="color" name="browser_weibo_detail_comments_reposts_category_color_unselected"/>
+    <attr format="reference" name="clickable_flag"/>
+    <attr format="reference" name="close"/>
+    <attr format="reference" name="comment"/>
+    <attr format="reference" name="copy"/>
+    <attr format="reference" name="edit"/>
+    <attr format="reference" name="emoticon"/>
+    <attr format="reference" name="error"/>
+    <attr format="reference" name="fav_en"/>
+    <attr format="reference" name="fav_un"/>
+    <attr format="reference" name="line_drawable"/>
+    <attr format="reference" name="link_color"/>
+    <attr format="reference" name="link_pressed_background_color"/>
+    <attr format="reference" name="listview_card_bg"/>
+    <attr format="reference" name="listview_checked_color"/>
+    <attr format="reference" name="listview_item_background_selector"/>
+    <attr format="reference" name="listview_item_bg"/>
+    <attr format="reference" name="listview_item_refresh_animation"/>
+    <attr format="integer" name="listview_pic_bg"/>
+    <attr format="reference" name="listview_pic_bg_border"/>
+    <attr format="reference" name="listview_repost_divider"/>
+    <attr format="reference" name="listview_text_color"/>
+    <attr format="reference" name="location_map"/>
+    <attr format="reference" name="location_place"/>
+    <attr format="color" name="profile_detail_count_bottom_color"/>
+    <attr format="color" name="profile_detail_count_divider_color"/>
+    <attr format="color" name="profile_top_photo_background_color"/>
+    <attr format="reference" name="refresh"/>
+    <attr format="reference" name="remove"/>
+    <attr format="reference" name="reply_to_comment"/>
+    <attr format="reference" name="repost"/>
+    <attr format="reference" name="save"/>
+    <attr format="reference" name="search"/>
+    <attr format="reference" name="send"/>
+    <attr format="reference" name="settings"/>
+    <attr format="reference" name="share"/>
+    <attr format="reference" name="split_line_between_content_and_bottom_button_panel"/>
+    <attr format="reference" name="statusnewactivity_camera"/>
+    <attr format="reference" name="statusnewactivity_gps"/>
+    <attr format="reference" name="statusnewactivity_pic"/>
+    <attr format="reference" name="statusnewactivity_send"/>
+    <attr format="reference" name="timeline_comment_flag"/>
+    <attr format="reference" name="timeline_gps_icon"/>
+    <attr format="reference" name="timeline_load_more_background"/>
+    <attr format="color" name="timeline_middle_layout_background"/>
+    <attr format="color" name="timeline_middle_layout_text_color"/>
+    <attr format="reference" name="timeline_pic_icon"/>
+    <attr format="reference" name="timeline_reply_to_comment"/>
+    <attr format="reference" name="timeline_repost_flag"/>
+    <attr format="reference" name="topic"/>
+    <attr format="reference" name="web"/>
+    <attr format="reference" name="write_dm"/>
+    <attr format="reference" name="write_weibo"/>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/bool.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <bool name="has_two_panes">true</bool>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/colors.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <color name="aliceblue">#F0F8FF</color>
     <color name="antiquewhite">#FAEBD7</color>
     <color name="aqua">#00FFFF</color>
@@ -225,9 +217,8 @@
     <color name="cadetblue">#5F9EA0</color>
     <color name="chartreuse">#7FFF00</color>
     <color name="chocolate">#D2691E</color>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/res/values/colors.xml -->
-    <eat-comment />
-
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_colors.xml -->
+    <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
     <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
@@ -239,8 +230,7 @@
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/colors.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <color name="coral">#FF7F50</color>
     <color name="cornflowerblue">#6495ED</color>
     <color name="cornsilk">#FFF8DC</color>
@@ -387,179 +377,37 @@
     <color name="transparent_cover">#25000000</color>
     <color name="turquoise">#40E0D0</color>
     <color name="violet">#EE82EE</color>
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_colors.xml -->
+    <eat-comment/>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#808080</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#0000ee</color>
+    <!-- From: file:/D:/mycodes/weiciyuan/res/values/colors.xml -->
+    <eat-comment/>
     <color name="wheat">#F5DEB3</color>
     <color name="white">#FFFFFF</color>
     <color name="whitesmoke">#F5F5F5</color>
     <color name="yellow">#FFFF00</color>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/res/values/ads_attrs.xml -->
-    <eat-comment />
-
-    <declare-styleable name="AdsAttrs">
-
-        <!--
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-        -->
-        <attr name="adSize" format="string" />
-
-        <!-- The ad unit ID. -->
-        <attr name="adUnitId" format="string" />
-    </declare-styleable>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/weiciyuan.libs/showcaseviewlibrary/unspecified/res/values/values.xml -->
-    <eat-comment />
-
-    <declare-styleable name="CustomTheme">
-        <attr name="showcaseViewStyle" format="reference" />
-    </declare-styleable>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/res/values/maps_attrs.xml -->
-    <eat-comment />
-
-    <declare-styleable name="MapAttrs">
-        <attr name="mapType" format="enum">
-            <enum name="none" value="0" />
-            <enum name="normal" value="1" />
-            <enum name="satellite" value="2" />
-            <enum name="terrain" value="3" />
-            <enum name="hybrid" value="4" />
-        </attr>
-        <attr name="cameraBearing" format="float" />
-        <attr name="cameraTargetLat" format="float" />
-        <attr name="cameraTargetLng" format="float" />
-        <attr name="cameraTilt" format="float" />
-        <attr name="cameraZoom" format="float" />
-        <attr name="uiCompass" format="boolean" />
-        <attr name="uiRotateGestures" format="boolean" />
-        <attr name="uiScrollGestures" format="boolean" />
-        <attr name="uiTiltGestures" format="boolean" />
-        <attr name="uiZoomControls" format="boolean" />
-        <attr name="uiZoomGestures" format="boolean" />
-        <attr name="useViewLifecycle" format="boolean" />
-        <attr name="zOrderOnTop" format="boolean" />
-    </declare-styleable>
-    <!-- From: file:/D:/mycodes/weiciyuan/res/values/pulltorefresh_attrs.xml -->
-    <eat-comment />
-
-    <declare-styleable name="PullToRefresh">
-
-        <!-- A drawable to use as the background of the Refreshable View -->
-        <attr name="ptrRefreshableViewBackground" format="reference|color" />
-
-        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
-        <attr name="ptrHeaderBackground" format="reference|color" />
-
-        <!-- Text Color of the Header and Footer Loading Views -->
-        <attr name="ptrHeaderTextColor" format="reference|color" />
-
-        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
-        <attr name="ptrHeaderSubTextColor" format="reference|color" />
-
-        <!-- Mode of Pull-to-Refresh that should be used -->
-        <attr name="ptrMode">
-            <flag name="disabled" value="0x0" />
-            <flag name="pullFromStart" value="0x1" />
-            <flag name="pullFromEnd" value="0x2" />
-            <flag name="both" value="0x3" />
-            <flag name="manualOnly" value="0x4" />
-
-            <!-- These last two are depreacted -->
-            <flag name="pullDownFromTop" value="0x1" />
-            <flag name="pullUpFromBottom" value="0x2" />
-        </attr>
-
-        <!-- Whether the Indicator overlay(s) should be used -->
-        <attr name="ptrShowIndicator" format="reference|boolean" />
-
-        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
-        <attr name="ptrDrawable" format="reference" />
-
-        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
-        <attr name="ptrDrawableStart" format="reference" />
-
-        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
-        <attr name="ptrDrawableEnd" format="reference" />
-
-        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
-        <attr name="ptrOverScroll" format="reference|boolean" />
-
-        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
-        <attr name="ptrHeaderTextAppearance" format="reference" />
-
-        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
-        <attr name="ptrSubHeaderTextAppearance" format="reference" />
-
-        <!-- Style of Animation should be used displayed when pulling. -->
-        <attr name="ptrAnimationStyle">
-            <flag name="rotate" value="0x0" />
-            <flag name="flip" value="0x1" />
-        </attr>
-
-        <!-- Whether the user can scroll while the View is Refreshing -->
-        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
-
-        <!--
-            Whether PullToRefreshListView has it's extras enabled. This allows the user to be
-            able to scroll while refreshing, and behaves better. It acheives this by adding
-            Header and/or Footer Views to the ListView.
-        -->
-        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
-
-        <!--
-            Whether the Drawable should be continually rotated as you pull. This only
-            takes effect when using the 'Rotate' Animation Style.
-        -->
-        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
-
-        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
-        <attr name="ptrAdapterViewBackground" format="reference|color" />
-        <attr name="ptrDrawableTop" format="reference" />
-        <attr name="ptrDrawableBottom" format="reference" />
-    </declare-styleable>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/weiciyuan.libs/showcaseviewlibrary/unspecified/res/values/values.xml -->
-    <eat-comment />
-
-    <declare-styleable name="ShowcaseView">
-        <attr name="sv_backgroundColor" format="color|reference" />
-        <attr name="sv_detailTextColor" format="color|reference" />
-        <attr name="sv_titleTextColor" format="color|reference" />
-        <attr name="sv_buttonBackgroundColor" format="color|reference" />
-        <attr name="sv_buttonForegroundColor" format="color|reference" />
-        <attr name="sv_buttonText" format="string|reference" />
-        <attr name="sv_detailTextAppearance" format="reference" />
-        <attr name="sv_titleTextAppearance" format="reference" />
-        <attr name="sv_showcaseColor" format="color|reference" />
-    </declare-styleable>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/weiciyuan.libs/slidingmenulibrary/unspecified/res/values/values.xml -->
-    <eat-comment />
-
-    <declare-styleable name="SlidingMenu">
-        <attr name="mode">
-            <enum name="left" value="0" />
-            <enum name="right" value="1" />
-        </attr>
-        <attr name="viewAbove" format="reference" />
-        <attr name="viewBehind" format="reference" />
-        <attr name="behindOffset" format="dimension" />
-        <attr name="behindWidth" format="dimension" />
-        <attr name="behindScrollScale" format="float" />
-        <attr name="touchModeAbove">
-            <enum name="margin" value="0" />
-            <enum name="fullscreen" value="1" />
-        </attr>
-        <attr name="touchModeBehind">
-            <enum name="margin" value="0" />
-            <enum name="fullscreen" value="1" />
-        </attr>
-        <attr name="shadowDrawable" format="reference" />
-        <attr name="shadowWidth" format="dimension" />
-        <attr name="fadeEnabled" format="boolean" />
-        <attr name="fadeDegree" format="float" />
-        <attr name="selectorEnabled" format="boolean" />
-        <attr name="selectorDrawable" format="reference" />
-    </declare-styleable>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="CustomTheme"><attr format="reference" name="showcaseViewStyle"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="ShowcaseView"><attr format="color|reference" name="sv_backgroundColor"/><attr format="color|reference" name="sv_detailTextColor"/><attr format="color|reference" name="sv_titleTextColor"/><attr format="color|reference" name="sv_buttonBackgroundColor"/><attr format="color|reference" name="sv_buttonForegroundColor"/><attr format="string|reference" name="sv_buttonText"/><attr format="reference" name="sv_detailTextAppearance"/><attr format="reference" name="sv_titleTextAppearance"/><attr format="color|reference" name="sv_showcaseColor"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="theme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
+    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="browser_msg_avatar_height">@dimen/timeline_avatar_height</dimen>
     <dimen name="browser_msg_avatar_width">@dimen/timeline_avatar_width</dimen>
     <dimen name="browser_msg_bg_padding">10dp</dimen>
@@ -569,28 +417,23 @@
     <dimen name="emotion_bg_size">40dp</dimen>
     <dimen name="emotion_size">28dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/pulltorefresh_dimes.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="header_footer_internal_padding">20dp</dimen>
     <dimen name="header_footer_left_right_padding">25dp</dimen>
     <dimen name="header_footer_top_bottom_padding">10dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="index_text_margin_bottom">8dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/pulltorefresh_dimes.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="indicator_corner_radius">12dp</dimen>
     <dimen name="indicator_internal_padding">4dp</dimen>
     <dimen name="indicator_right_padding">10dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/slidingmenu_dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="list_padding">10dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="none">10dp</dimen>
     <dimen name="normal_gif_webview_margin_left">40dp</dimen>
     <dimen name="normal_gif_webview_margin_right">40dp</dimen>
@@ -598,13 +441,11 @@
     <dimen name="profile_avatar_width">70dp</dimen>
     <dimen name="profile_bg_padding">8dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/slidingmenu_dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="shadow_width">15dp</dimen>
     <dimen name="slidingmenu_offset">150dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="timeline_avatar_height">50dp</dimen>
     <dimen name="timeline_avatar_width">50dp</dimen>
     <dimen name="timeline_pic_high_thumbnail_height">230dp</dimen>
@@ -612,43 +453,34 @@
     <dimen name="timeline_pic_thumbnail_width">157dp</dimen>
     <dimen name="toptipbar_layout_margin">10dp</dimen>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/pulltorefresh_ids.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <item name="gridview" type="id"/>
     <item name="scrollview" type="id"/>
     <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/weiciyuan.libs/slidingmenulibrary/unspecified/res/values/values.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <item name="selected_view" type="id"/>
     <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/weiciyuan.libs/showcaseviewlibrary/unspecified/res/values/values.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <item name="showcase_button" type="id"/>
     <item name="showcase_sub_text" type="id"/>
     <item name="showcase_title_text" type="id"/>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/ids.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <item name="swipe_framelayout" type="id"/>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/pulltorefresh_ids.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <item name="webview" type="id"/>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/numbers.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <integer name="emotion_size">25</integer>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/res/values/version.xml -->
-    <eat-comment />
-
-    <integer name="google_play_services_version">4030500</integer>
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">5208000</integer>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/slidingmenu_dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <integer name="num_cols">1</integer>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="account">帐号</string>
     <string name="account_management">帐号管理</string>
     <string name="add">添加</string>
@@ -678,18 +510,6 @@
     <string name="at">"@TA"</string>
     <string name="at_him">"@他"</string>
     <string name="at_other">添加好友</string>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/res/values/strings.xml -->
-    <eat-comment />
-
-    <string name="auth_client_needs_enabling_title">      An application requires Google Play Services to be enabled.</string>
-    <string name="auth_client_needs_installation_title">      An application requires installation of Google Play Services.</string>
-    <string name="auth_client_needs_update_title">      An application requires an update for Google Play Services.</string>
-    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
-    <string name="auth_client_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
-    <string name="auth_client_using_bad_version_title">      An application attempted to use a bad version of Google Play Services.</string>
-    <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
-    <eat-comment />
-
     <string name="background_downloading">后台下载中</string>
     <string name="background_sending">发送中</string>
     <string name="big_pic">原图</string>
@@ -719,8 +539,7 @@
     <string name="click_to_top_tip">点击空白区域直接返回顶部</string>
     <string name="close">关闭</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/errors.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="code10001">系统错误</string>
     <string name="code10002">服务端资源不可用</string>
     <string name="code10003">远程服务出错</string>
@@ -735,7 +554,7 @@
     <string name="code10013">不合法的微博用户</string>
     <string name="code10014">第三方应用访问api接口权限受限制</string>
     <string name="code10016">错误:缺失必选参数:%s，请参考API文档</string>
-    <string name="code10017" formatted="false">错误:参数值非法,希望得到 (%s),实际得到 (%s)，请参考API文档</string>
+    <string formatted="false" name="code10017">错误:参数值非法,希望得到 (%s),实际得到 (%s)，请参考API文档</string>
     <string name="code10018">请求长度超过限制</string>
     <string name="code10020">接口不存在</string>
     <string name="code10021">请求的HTTP METHOD不支持</string>
@@ -942,7 +761,7 @@
     <string name="code21611">非法appkey</string>
     <string name="code21612">无效IP</string>
     <string name="code21613">参数错误，需要通知id或者标题内容参数</string>
-    <string name="code21620" formatted="false">参数错误，uid参数必须与登录用户一致，授权用户uid %s 参数uid %s</string>
+    <string formatted="false" name="code21620">参数错误，uid参数必须与登录用户一致，授权用户uid %s 参数uid %s</string>
     <string name="code21621">appkey62无效</string>
     <string name="code21631">添加屏蔽达到上限</string>
     <string name="code21632">禁止添加未授权的应用</string>
@@ -1004,40 +823,42 @@
     <string name="code21966">地理信息接口缺少参数coordinates</string>
     <string name="code21971">地理信息接口中心坐标超出范围</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="comment_at_to_you">在评论中提到了你</string>
     <string name="comment_cant_be_empty">评论不能为空</string>
     <string name="comment_detail">评论</string>
     <string name="comment_is_empty">没有评论</string>
     <string name="comment_sent_to_you">评论了你的微博</string>
     <string name="comments">评论</string>
-    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/res/values/strings.xml -->
-    <eat-comment />
-
-    <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
-    <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
-    <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
-    <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
-    <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
-    <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
-    <string name="common_google_play_services_install_title" msgid="7215213145546190223">Get Google Play services</string>
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
     <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
     <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
     <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
     <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
     <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
     <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
     <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
     <string name="common_google_play_services_unsupported_title">Google Play services</string>
-    <string name="common_google_play_services_update_button" msgid="6556509956452265614">Update</string>
-    <string name="common_google_play_services_update_text" msgid="9053896323427875356">This app won\'t run unless you update Google Play services.</string>
-    <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="confirm">确定</string>
     <string name="congratulation_to_you">恭喜你，智商又提高一层！</string>
     <string name="content_cant_be_empty">内容不能为空</string>
@@ -1094,7 +915,9 @@
     <string name="filter_is_empty">没有内容</string>
     <string name="filter_keyword">关键词</string>
     <string name="filter_rule">规则解释</string>
-    <string name="filter_rule_content">        关键词只针对内容，不会误伤到微博的用户昵称，但@到的用户昵称如果匹配会被过滤，而用户只针对发微博/转发微博的用户昵称，是不涉及内容中@到的用户。</string>
+    <string name="filter_rule_content">
+        关键词只针对内容，不会误伤到微博的用户昵称，但@到的用户昵称如果匹配会被过滤，而用户只针对发微博/转发微博的用户昵称，是不涉及内容中@到的用户。
+    </string>
     <string name="filter_source">来源</string>
     <string name="filter_successfully">你以后都不会再见到这家伙了</string>
     <string name="filter_topic">话题</string>
@@ -1137,13 +960,11 @@
     <string name="justnow">刚刚</string>
     <string name="left">剩余</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/tag.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="listview_index_tag">四次元</string>
     <string name="listview_tag">"@四次元App</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="loading">载入中……</string>
     <string name="loading_middle_msg">载入中间数据……</string>
     <string name="login">授权</string>
@@ -1210,12 +1031,20 @@
     <string name="photo">照片</string>
     <string name="picture_cant_download_or_sd_cant_read">图片下载失败或是SD卡无法读取</string>
     <string name="picture_is_too_large_so_enable_software_layer">图片太大，启用软件渲染模式，滚动会掉帧……</string>
-    <string name="picture_is_too_large_to_read_so_gallery_load_thumbnails_of_this_picture">        原图太大无法显示，载入缩略图</string>
+    <string name="picture_is_too_large_to_read_so_gallery_load_thumbnails_of_this_picture">
+        原图太大无法显示，载入缩略图
+    </string>
     <string name="picture_read_failed">图片解析失败</string>
     <string name="please_deleted_cache_dir">权限出错，无法读取存储空间，需要用户手动删除SD卡下的
-        /Android/data/org.qii.weiciyuan 目录</string>
+        /Android/data/org.qii.weiciyuan 目录
+    </string>
     <string name="please_insert_sd_card">请插入SD卡</string>
     <string name="please_open_gps">请打开GPS</string>
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="pre_release_do_not_ship" translatable="false">true</string>
+    <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
+    <eat-comment/>
     <string name="pref_about_title">关于</string>
     <string name="pref_advanced_title">高级</string>
     <string name="pref_appearance_title">显示</string>
@@ -1299,8 +1128,7 @@
     <string name="print_license">打印协议</string>
     <string name="profile">个人资料</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/pulltorefresh_strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
@@ -1308,11 +1136,11 @@
     <string name="pull_to_refresh_refreshing_label">加载中…</string>
     <string name="pull_to_refresh_release_label">松开即刻刷新…</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="quick_comment">快速评论</string>
     <string name="quick_repost">快速转发原创微博</string>
-    <string name="recommend_content">还在被微博的广告恶心吗？换用 四次元 吧，干净清爽的新浪微博安卓客户端，下载 => http://t.cn/zlAUwy7</string>
+    <string name="recommend_content">还在被微博的广告恶心吗？换用 四次元 吧，干净清爽的新浪微博安卓客户端，下载 => http://t.cn/zlAUwy7
+    </string>
     <string name="refresh">刷新</string>
     <string name="refreshing">刷新中……</string>
     <string name="remark">备注</string>
@@ -1362,7 +1190,8 @@
     <string name="short_content_middle">精简中间\@</string>
     <string name="short_content_right">精简右侧\@</string>
     <string name="silent">静音</string>
-    <string name="sina_server_error">检测到你跳转到错误页面，这是因为新浪微博第三方认证服务器出错，多次重复操作依然不行的话尝试换网络，四次元无能为力</string>
+    <string name="sina_server_error">检测到你跳转到错误页面，这是因为新浪微博第三方认证服务器出错，多次重复操作依然不行的话尝试换网络，四次元无能为力
+    </string>
     <string name="something_error">发生故障</string>
     <string name="something_wrong">出错了！</string>
     <string name="start_clean_cache">开始清理缓存</string>
@@ -1379,17 +1208,20 @@
     <string name="the_day_before_yesterday">前天</string>
     <string name="timeout">网络有问题，连不上</string>
     <string name="tip">提示</string>
-    <string name="tip_dialog_content">        1. 搜索、私信、个人资料编辑都没接口做\n
+    <string name="tip_dialog_content">
+        1. 搜索、私信、个人资料编辑都没接口做\n
         2. 受新浪微博政策限制，帐号隔3个月就会过期，需要重新登录\n
         3. 登录是在新浪网站上进行的，登录不了找新浪\n
         4. Flyme 和 Miui 这2个系统的问题都不解决
         5. 没适配到平板，不推荐5寸+设备使用这个应用
-        6. 觉得不爽就老老实实用官方客户端\n</string>
+        6. 觉得不爽就老老实实用官方客户端\n
+    </string>
     <string name="tip_dialog_title">提示</string>
     <string name="title_changelog">更新日志</string>
     <string name="today">今天</string>
     <string name="token_expires_in_time">请注意，根据新浪微博的平台政策，刚添加的帐号会在 %s
-        天后过期，到时需要重新登录，在授权过期之前重复登陆不会刷新剩余天数</string>
+        天后过期，到时需要重新登录，在授权过期之前重复登陆不会刷新剩余天数
+    </string>
     <string name="token_has_expired">已过期</string>
     <string name="topic">话题</string>
     <string name="topic_list">话题列表</string>
@@ -1416,6 +1248,11 @@
     <string name="view_gps">查看</string>
     <string name="wait_for_download_picture">等待图片下载……</string>
     <string name="wait_server_response">发送完，等结果</string>
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_strings.xml -->
+    <eat-comment/>
+    <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <!-- From: file:/D:/mycodes/weiciyuan/res/values/strings.xml -->
+    <eat-comment/>
     <string name="web">网页</string>
     <string name="weibo">微博</string>
     <string name="weibo_at_to_you">提到了你</string>
@@ -1433,16 +1270,13 @@
     <string name="you_is_following_he">你关注了Ta</string>
     <string name="your_token_is_expired">检测到你的授权信息已经过期了，请重新授权一次</string>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_light.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="ActionBar.Subtitle.Text" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse">
         <item name="android:textColor">@color/white</item>
     </style>
-
     <style name="ActionBar.Title.Text" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse">
         <item name="android:textColor">@color/white</item>
     </style>
-
     <style name="ActionBarDropDownStyle" parent="@android:style/Widget.Holo.Light.Spinner">
         <item name="android:background">@drawable/actionbar_dropdown_navigation_item_background_light</item>
         <item name="android:gravity">center_vertical|left</item>
@@ -1452,8 +1286,7 @@
         <item name="android:dropDownHorizontalOffset">0dip</item>
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_dark.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="ActionBarDropDownStyle_Black" parent="@android:style/Widget.Holo.Spinner">
         <item name="android:background">@drawable/actionbar_dropdown_navigation_item_background_dark</item>
         <item name="android:gravity">center_vertical|left</item>
@@ -1461,45 +1294,46 @@
         <item name="android:dropDownWidth">200dp</item>
         <item name="android:dropDownVerticalOffset">0dip</item>
         <item name="android:dropDownHorizontalOffset">0dip</item>
+
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_light.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@drawable/ab_solid_custom_blue_inverse_holo</item>
+
         <item name="android:backgroundStacked">@drawable/ab_stacked_solid_inverse_holo</item>
+
         <item name="android:titleTextStyle">@style/ActionBar.Title.Text</item>
         <item name="android:subtitleTextStyle">@style/ActionBar.Subtitle.Text</item>
+
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_dark.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="ActionBarStyle_Black" parent="@android:style/Widget.Holo.ActionBar">
         <item name="android:background">@drawable/abs__ab_solid_dark_holo</item>
         <item name="android:backgroundSplit">@drawable/abs__ab_bottom_solid_dark_holo</item>
         <item name="android:backgroundStacked">#262626</item>
-    </style>
 
+
+    </style>
     <style name="ActionBarTabViewDark" parent="@android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:background">@drawable/actionbar_tab_background_dark</item>
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_light.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="ActionBarTabViewLight" parent="@android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:background">@drawable/actionbar_tab_background_light</item>
     </style>
-
     <style name="ActionBarTheme" parent="@android:style/Theme.Holo.Light">
-        <!-- <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item> -->
-        <!-- <item name="android:textColor">@android:color/black</item> -->
-        <!-- <item name="android:textColorHint">#ffcccccc</item> -->
-        <!-- <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item> -->
+        <!--<item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>-->
+        <!--<item name="android:textColor">@android:color/black</item>-->
+        <!--<item name="android:textColorHint">#ffcccccc</item>-->
+        <!--<item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>-->
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_dark.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="AppTheme_Dark" parent="@style/PrivateThemeHoloOnlyForInherit">
+
         <item name="account">@drawable/account_light</item>
         <item name="account_management">@drawable/account_management_light</item>
         <item name="add">@drawable/accountactivity_new_light</item>
@@ -1535,13 +1369,19 @@
         <item name="close">@drawable/close_light</item>
         <item name="clickable_flag">@drawable/clickable_flag_light</item>
         <item name="timeline_reply_to_comment">@drawable/reply_to_comment_light</item>
+
+
         <item name="timeline_gps_icon">@drawable/timeline_gps_light</item>
         <item name="timeline_pic_icon">@drawable/timeline_pic_light</item>
         <item name="timeline_load_more_background">@drawable/timeline_load_more_dark</item>
+
+
         <item name="listview_item_background_selector">@drawable/listview_item_background_selector_dark</item>
         <item name="listview_item_refresh_animation">@drawable/refresh_light</item>
+
         <item name="link_color">@color/steelblue</item>
         <item name="link_pressed_background_color">@color/link_pressed_background_color_dark</item>
+
         <item name="line_drawable">@drawable/list_divider_holo_dark</item>
         <item name="listview_checked_color">@color/listview_checked_color_holo_dark</item>
         <item name="listview_pic_bg_border">@drawable/bg_timeline_picture_light</item>
@@ -1550,27 +1390,32 @@
         <item name="listview_card_bg">@drawable/listview_item_card_dark_background</item>
         <item name="listview_item_bg">@drawable/listview_item_background_normal_dark</item>
         <item name="listview_text_color">@color/timeline_item_text_color_dark</item>
+
         <item name="listview_pic_bg">@color/listview_pic_background_dark</item>
         <item name="listview_repost_divider">@drawable/drawer_menu_divider</item>
+
         <item name="profile_top_photo_background_color">@color/transparent</item>
         <item name="profile_detail_count_divider_color">@color/transparent</item>
         <item name="profile_detail_count_bottom_color">@color/transparent</item>
+
         <item name="browser_weibo_detail_background_color">#cc333333</item>
         <item name="browser_weibo_detail_comments_reposts_category_color_selected">@color/orange</item>
         <item name="browser_weibo_detail_comments_reposts_category_color_unselected">@color/white</item>
+
         <item name="split_line_between_content_and_bottom_button_panel">@drawable/bg_write_weibo_bottom</item>
+
+
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_dummy.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="AppTheme_Dummy">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_light.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="AppTheme_Light" parent="@style/PrivateThemeHoloLightOnlyForInherit">
+
         <item name="account">@drawable/account_dark</item>
         <item name="account_management">@drawable/account_management_light</item>
         <item name="add">@drawable/accountactivity_new_light</item>
@@ -1606,9 +1451,11 @@
         <item name="close">@drawable/close_light</item>
         <item name="clickable_flag">@drawable/clickable_flag_dark</item>
         <item name="timeline_reply_to_comment">@drawable/reply_to_comment_dark</item>
+
         <item name="timeline_gps_icon">@drawable/timeline_gps_dark</item>
         <item name="timeline_pic_icon">@drawable/timeline_pic_dark</item>
         <item name="timeline_load_more_background">@drawable/timeline_load_more_light</item>
+
         <item name="listview_item_background_selector">@drawable/listview_item_background_selector_light</item>
         <item name="listview_item_refresh_animation">@drawable/refresh_dark</item>
         <item name="link_color">@color/dark_blue</item>
@@ -1623,35 +1470,41 @@
         <item name="listview_text_color">@color/timeline_item_text_color_light</item>
         <item name="listview_pic_bg">@color/listview_pic_background_light</item>
         <item name="listview_repost_divider">@drawable/divider</item>
+
+
         <item name="profile_top_photo_background_color">@color/black</item>
         <item name="profile_detail_count_divider_color">@color/list_divider_color</item>
         <item name="profile_detail_count_bottom_color">@color/list_divider_color</item>
+
+
         <item name="browser_weibo_detail_background_color">#fcfcfc</item>
         <item name="browser_weibo_detail_comments_reposts_category_color_selected">@color/orange</item>
         <item name="browser_weibo_detail_comments_reposts_category_color_unselected">@color/black</item>
+
         <item name="split_line_between_content_and_bottom_button_panel">@drawable/ab_bottom_solid_inverse_holo</item>
+
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_gallery.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="CommonGalleryTheme" parent="@android:style/Theme.Holo.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowFullscreen">false</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowContentOverlay">@null</item>
+
         <item name="android:backgroundDimEnabled">false</item>
         <item name="android:windowIsTranslucent">true</item>
+
         <item name="android:windowAnimationStyle">@null</item>
     </style>
+    <style name="GalleryTheme" parent="@style/CommonGalleryTheme">
 
-    <style name="GalleryTheme" parent="@style/CommonGalleryTheme"></style>
+    </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_light.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
         <item name="android:listSelector">?android:listChoiceBackgroundIndicator</item>
     </style>
-
     <style name="PrivateThemeHoloLightOnlyForInherit" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:windowBackground">@color/host_background</item>
         <item name="android:actionBarStyle">@style/ActionBarStyle</item>
@@ -1662,8 +1515,7 @@
         <item name="android:fastScrollTrackDrawable">@null</item>
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/theme_dark.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="PrivateThemeHoloOnlyForInherit" parent="@android:style/Theme.Holo">
         <item name="android:windowBackground">@color/dark_theme_background</item>
         <item name="android:actionBarStyle">@style/ActionBarStyle_Black</item>
@@ -1672,8 +1524,7 @@
         <item name="android:fastScrollTrackDrawable">@null</item>
     </style>
     <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/weiciyuan.libs/showcaseviewlibrary/unspecified/res/values/values.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="ShowcaseButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -1685,41 +1536,44 @@
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:background">@drawable/cling_button_bg</item>
     </style>
-
     <style name="ShowcaseView">
         <item name="sv_titleTextAppearance">@style/TextAppearance.ShowcaseView.Title</item>
         <item name="sv_detailTextAppearance">@style/TextAppearance.ShowcaseView.Detail</item>
         <item name="sv_backgroundColor">#80000000</item>
         <item name="sv_buttonText">@string/ok</item>
     </style>
-
     <style name="ShowcaseView.Light">
         <item name="sv_titleTextAppearance">@style/TextAppearance.ShowcaseView.Title</item>
         <item name="sv_detailTextAppearance">@style/TextAppearance.ShowcaseView.Detail.Light</item>
         <item name="sv_backgroundColor">#3333B5E5</item>
         <item name="sv_buttonText">@string/ok</item>
     </style>
-
     <style name="TextAppearance.ShowcaseView.Detail" parent="android:style/TextAppearance">
         <item name="android:textColor">#FFFFFF</item>
     </style>
-
     <style name="TextAppearance.ShowcaseView.Detail.Light">
         <item name="android:textColor">#666666</item>
         <item name="android:shadowColor">#FF0000</item>
         <item name="android:shadowRadius">0</item>
     </style>
-
     <style name="TextAppearance.ShowcaseView.Title" parent="android:style/TextAppearance.Large">
         <item name="android:textColor">#33B5E5</item>
     </style>
-
     <style name="TextAppearance.ShowcaseView.Title.Light">
         <item name="android:shadowRadius">0</item>
     </style>
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
     <!-- From: file:/D:/mycodes/weiciyuan/res/values/style.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="UserAvatarDialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowFrame">@null</item>
@@ -1733,13 +1587,47 @@
         <item name="android:padding">0dp</item>
         <item name="android:background">@color/transparent</item>
     </style>
-
+    <!-- From: file:/D:/mycodes/weiciyuan/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_styles.xml -->
+    <eat-comment/>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48dp</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+    <!-- From: file:/D:/mycodes/weiciyuan/res/values/style.xml -->
+    <eat-comment/>
     <style name="dialogTitleStyle">
         <item name="android:maxLines">1</item>
         <item name="android:scrollHorizontally">true</item>
         <item name="android:textAppearance">@style/android:TextAppearance.Holo.DialogWindowTitle</item>
     </style>
-
     <style name="drawerMenuButton">
         <item name="android:textSize">@dimen/drawerTextSize</item>
         <item name="android:textColor">@android:color/white</item>
@@ -1752,7 +1640,6 @@
         <item name="android:layout_height">50.0dip</item>
         <item name="android:drawablePadding">8.0dip</item>
     </style>
-
     <style name="drawerMessageCount">
         <item name="android:background">@drawable/bg_message_count</item>
         <item name="android:textAppearance">?android:attr/textAppearance</item>
@@ -1766,7 +1653,6 @@
         <item name="android:paddingRight">10dp</item>
         <item name="android:layout_marginLeft">10dp</item>
     </style>
-
     <style name="drawerMessageCountTabWidget">
         <item name="android:background">@drawable/bg_message_count</item>
         <item name="android:textAppearance">?android:attr/textAppearance</item>
@@ -1780,14 +1666,13 @@
         <item name="android:paddingRight">5dp</item>
         <item name="android:layout_marginLeft">10dp</item>
     </style>
-
     <style name="listViewMultiImageView">
         <item name="android:scaleType">centerCrop</item>
         <item name="android:layout_height">90dp</item>
         <item name="android:layout_width">90dp</item>
         <item name="android:layout_margin">2.5dp</item>
-    </style>
 
+    </style>
     <style name="profileHeaderText">
         <item name="android:textSize">17sp</item>
         <item name="android:textColor">@color/white</item>
@@ -1800,11 +1685,9 @@
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">0.5</item>
     </style>
-
     <style name="profileHeaderText.Bold" parent="@style/profileHeaderText">
         <item name="android:textStyle">bold</item>
     </style>
-
     <style name="profileStatName">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/grey</item>
@@ -1812,7 +1695,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
     </style>
-
     <style name="profileStatValue">
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
@@ -1821,11 +1703,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
     </style>
-
     <style name="progressBarStyleHorizontal" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/progress_horizontal</item>
         <item name="android:minHeight">16dip</item>
         <item name="android:maxHeight">16dip</item>
     </style>
-
 </resources>
