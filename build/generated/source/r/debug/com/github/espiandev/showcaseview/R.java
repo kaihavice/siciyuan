@@ -8,16 +8,16 @@ package com.github.espiandev.showcaseview;
 
 public final class R {
 	public static final class attr {
-		public static final int showcaseViewStyle = 0x7f01003d;
-		public static final int sv_backgroundColor = 0x7f01005f;
-		public static final int sv_buttonBackgroundColor = 0x7f010062;
-		public static final int sv_buttonForegroundColor = 0x7f010063;
-		public static final int sv_buttonText = 0x7f010064;
-		public static final int sv_detailTextAppearance = 0x7f010065;
-		public static final int sv_detailTextColor = 0x7f010060;
-		public static final int sv_showcaseColor = 0x7f010067;
-		public static final int sv_titleTextAppearance = 0x7f010066;
-		public static final int sv_titleTextColor = 0x7f010061;
+		public static final int showcaseViewStyle = 0x7f01003e;
+		public static final int sv_backgroundColor = 0x7f010060;
+		public static final int sv_buttonBackgroundColor = 0x7f010063;
+		public static final int sv_buttonForegroundColor = 0x7f010064;
+		public static final int sv_buttonText = 0x7f010065;
+		public static final int sv_detailTextAppearance = 0x7f010066;
+		public static final int sv_detailTextColor = 0x7f010061;
+		public static final int sv_showcaseColor = 0x7f010068;
+		public static final int sv_titleTextAppearance = 0x7f010067;
+		public static final int sv_titleTextColor = 0x7f010062;
 	}
 	public static final class drawable {
 		public static final int btn_cling_normal = 0x7f020028;
@@ -28,16 +28,16 @@ public final class R {
 		public static final int hand = 0x7f020065;
 	}
 	public static final class id {
-		public static final int showcase_button = 0x7f0a0015;
-		public static final int showcase_sub_text = 0x7f0a0016;
-		public static final int showcase_title_text = 0x7f0a0017;
+		public static final int showcase_button = 0x7f0a0024;
+		public static final int showcase_sub_text = 0x7f0a0025;
+		public static final int showcase_title_text = 0x7f0a0026;
 	}
 	public static final class layout {
 		public static final int handy = 0x7f030025;
 		public static final int showcase_button = 0x7f03003e;
 	}
 	public static final class string {
-		public static final int ok = 0x7f0d020c;
+		public static final int ok = 0x7f0d020b;
 	}
 	public static final class style {
 		public static final int ShowcaseButton = 0x7f0e0011;
@@ -49,9 +49,9 @@ public final class R {
 		public static final int TextAppearance_ShowcaseView_Title_Light = 0x7f0e0017;
 	}
 	public static final class styleable {
-		public static final int[] CustomTheme = { 0x7f01003d };
+		public static final int[] CustomTheme = { 0x7f01003e };
 		public static final int CustomTheme_showcaseViewStyle = 0;
-		public static final int[] ShowcaseView = { 0x7f01005f, 0x7f010060, 0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064, 0x7f010065, 0x7f010066, 0x7f010067 };
+		public static final int[] ShowcaseView = { 0x7f010060, 0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064, 0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068 };
 		public static final int ShowcaseView_sv_backgroundColor = 0;
 		public static final int ShowcaseView_sv_buttonBackgroundColor = 3;
 		public static final int ShowcaseView_sv_buttonForegroundColor = 4;
